@@ -1,1 +1,1 @@
-# Java 8 Lambda functions (Next)
+# NodeJS Lambda functions
