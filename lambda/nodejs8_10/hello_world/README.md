@@ -1,0 +1,1 @@
+# Basic NOdeJS Lambda function

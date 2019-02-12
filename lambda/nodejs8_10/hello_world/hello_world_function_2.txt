@@ -1,0 +1,7 @@
+exports.handler = function (event, context) => {
+    var input1 = (event.input1 === undefined ? 'Hello' : event.input1);
+    var input2 = (event.input2 === undefined ? 'World' : event.input2);
+
+    var response = input1 + ' ' + input2;
+    context.done(null, {"response": response});
+};
