@@ -1,1 +1,1 @@
-# Java 8 Lambda functions (Next)
+# Java 8 Lambda functions w/o Java Lambda interface
