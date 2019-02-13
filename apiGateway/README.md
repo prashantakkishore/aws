@@ -1,6 +1,7 @@
 # AWS API Gateway
 
-This uses existing [hello_world_function_2.txt] (https://github.com/prashantakkishore/aws/blob/master/lambda/nodejs8_10/hello_world/hello_world_function_2.txt) NodeJS Lambda function created in AWS repo.
+This uses existing 
+[hello_world_function_2.txt](https://github.com/prashantakkishore/aws/blob/master/lambda/nodejs8_10/hello_world/hello_world_function_2.txt) NodeJS Lambda function created in AWS repo.
 
 ## Creating API
 
