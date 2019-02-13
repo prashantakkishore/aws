@@ -2,47 +2,47 @@
 
 This uses existing 'Hello' Lambda function created in AWS repo.
 
-#### Creating API
+## Creating API
 
 ![Alt text](screenshots/create_api.png?raw=true "Title")
 
-#### Creating Resouce
+## Creating Resouce
 
 ![Alt text](screenshots/create_resource.png?raw=true "Title")
 
-#### Creating Method
+## Creating Method
 
 ![Alt text](screenshots/create_get_method.png?raw=true "Title")
 
-
+On save it asks to give API gateway a permission to invoke Lambda function.
 ![Alt text](screenshots/api_permission.png?raw=true "Title")
 
-#### Method Templates
+## Method Templates
 
 This is used to transform one input to another. As our api uses post data , we pass data here as path param and transform it to post data through 'Method Templates'.
 ![Alt text](screenshots/method_templates_get_to_post.png?raw=true "Title")
 
-##### Test Result
+### Test Result
 
 ![Alt text](screenshots/path_param_test_results.png?raw=true "Title")
 
-#### Testing from AWS console
+## Testing from AWS console
 
-##### Get Request
+### Get Request
 ![Alt text](screenshots/test_get_results.png?raw=true "Title")
 
-##### Post Request
+### Post Request
 ![Alt text](screenshots/test_post_results.png?raw=true "Title")
 
-#### Deploying API
+## Deploying API
 
 ![Alt text](screenshots/deploying_api.png?raw=true "Title")
 
-##### Post deploy api options
+### Post deploy api options
 From this window we can setup caching, cloudwatch and generate client sdks.
 ![Alt text](screenshots/post_deploy_api_options.png?raw=true "Title")
 
-#### Test deployed API in Postman
+## Test deployed API in Postman
 
 ![Alt text](screenshots/test_deployed_api_postman_1.png?raw=true "Title")
 
@@ -50,7 +50,7 @@ From this window we can setup caching, cloudwatch and generate client sdks.
 
 ![Alt text](screenshots/test_deployed_api_postman_3.png?raw=true "Title")
 
-#### API Key
+## API Key
 
 API key is used to uniquly identify and log api calls. Once this is setup for a API a header needs to be passed to get response as.
 
